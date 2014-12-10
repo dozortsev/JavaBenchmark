@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Thread)
 @Threads(1)
 @Fork(1)
-public class StringConcat {
+public class StringConcatTest {
 
     private static final String EMPTY = "";
     private static final String TEST_LINE = "Lorem ipsum dolor sit amet consectetur adipisicing elit Sequi vitae";
